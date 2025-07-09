@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Notfound from "../pages/Notfound";
-import { adminRoutes } from "./AdminRoutes";
-import { frontRoutes } from "./FrontRoutes";
+import { adminRoutes } from "./adminRoutes";
+import { frontRoutes } from "./frontRoutes";
 
 
 const router = createBrowserRouter([
