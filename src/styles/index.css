@@ -21,10 +21,11 @@
   --color-sec-yellow-200: #f4ece3; /* rgba(244,236,227) */
   --color-sec-yellow-300: #d8cec6; /* rgba(216,206,198) */
   --color-sec-yellow-400: #c8baa0; /* rgba(200,186,160) */
-  --color-sec-yellow-500: #C4AC81; /* rgba(196,172,129) */
-  --color-sec-yellow-600: #A18C6D; /* rgba(161,140,109) */
-  --color-sec-yellow-700: #7D6E55; /* rgba(125,110,85) */
-
+  --color-sec-yellow-500: #c4ac81; /* rgba(196,172,129) */
+  --color-sec-yellow-600: #a18c6d; /* rgba(161,140,109) */
+  --color-sec-yellow-700: #7d6e55; /* rgba(125,110,85) */
+  /* #ffe1d6 */
+  /* #3C4368 */
 
   --color-sec-pink-100: #fbddd3; /* rgba(251,221,211) */
 }
@@ -152,3 +153,6 @@
 /* Sliders */
 @import "@/styles/sliders/heroSlider.css";
 @import "@/styles/sliders/themeSlider.css";
+
+/* Home */
+@import "@/styles/home/advantage.css";
