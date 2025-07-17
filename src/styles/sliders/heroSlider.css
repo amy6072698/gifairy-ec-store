@@ -1,0 +1,96 @@
+.hero-slider {
+  @apply w-full font-lato overflow-hidden py-4 bg-sec-yellow-100;
+
+  img {
+    @apply max-w-full block object-contain object-center;
+  }
+
+  .slider-container {
+    @apply max-w-full mx-auto h-auto;
+  }
+
+  /* Swiper slide */
+  .swiper-slide {
+    @apply relative h-auto min-[1296px]:h-[580px] overflow-hidden select-none bg-pri-purple-100 opacity-80;
+  }
+
+  .swiper-slide-active {
+    @apply opacity-100;
+    img {
+      @apply scale-[1.2] duration-[0.8s] ease-in-out;
+    }
+  }
+
+  /* Navigation */
+  .swiper-slide-prev:hover {
+    @apply opacity-100;
+  }
+
+  .swiper-slide-next:hover {
+    @apply opacity-100;
+  }
+
+  .swiper {
+    &:has(.swiper-slide-prev:hover) .prev-btn {
+      @apply text-pri-purple-200;
+    }
+    &:has(.swiper-slide-next:hover) .next-btn {
+      @apply text-pri-purple-200;
+    }
+    &:has(.swiper-slide-prev:active) .prev-btn {
+      @apply text-pri-purple-200;
+    }
+    &:has(.swiper-slide-next:active) .next-btn {
+      @apply text-pri-purple-200;
+    }
+  }
+
+  .prev-btn {
+    @apply left-[1%] absolute cursor-pointer top-1/2 -translate-y-1/2 z-[5] hidden md:block text-4xl text-gray-900;
+  }
+  .next-btn {
+    @apply right-[1%] absolute cursor-pointer top-1/2 -translate-y-1/2 z-[5] hidden md:block  text-4xl text-gray-900;
+  }
+
+  /* Pagination */
+  .swiper-pagination-bullet {
+    @apply w-[6px] h-[6px] bg-pri-purple-100 rounded-full;
+    &:hover{
+      @apply w-3 opacity-50;
+    }
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply w-6 bg-[#AB789C] rounded-full transition-all duration-[0.8s] ease-in-out;
+  }
+
+  /* Content */
+  .content {
+    @apply absolute inset-0 z-[1] flex flex-col;
+    /* pt-[25px] pr-[45%] pb-[65px] pl-[4%] */
+  }
+  .swiper-slide-active .content {
+    @apply bg-linear-[90deg,rgba(0,0,0,0.2)_5%,rgba(0,0,0,0.3)_50%,transparent_75%,transparent];
+  }
+
+  /* Text Box */
+  .text-box {
+    @apply opacity-0;
+    h2 {
+      @apply translate-y-full opacity-0;
+    }
+    .action-btn {
+      @apply opacity-0;
+    }
+  }
+
+  .swiper-slide-active .text-box {
+    @apply duration-[0.6s] delay-[0.3s] opacity-100;
+    h2 {
+      @apply translate-y-0 opacity-100 duration-[0.6s] delay-[0.3s] ease-in;
+    }
+    .action-btn {
+      @apply opacity-100 duration-[0.8s] delay-[0.3s] ease-out;
+    }
+  }
+}

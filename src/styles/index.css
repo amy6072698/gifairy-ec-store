@@ -2,21 +2,35 @@
 @import "tailwindcss";
 
 /* google font lato */
-@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import "tw-animate-css";
 
+/* shadcn UI */
 @custom-variant dark (&:is(.dark *));
 
+/* custom theme */
 @theme {
   --font-lato: "Lato", sans-serif;
-  --color-pri-purple-100: #ceb7bd;
-  --color-pri-purple-200: #522947;
-  --color-sec-pink-100: #fbddd3;
-  --color-sec-yellow-100: #f4ece3;
-  --color-sec-yellow-200: #d8cec6;
-  --color-sec-yellow-300: #c8baa0;
+  --color-pri-purple-100: #ceb7bd; /* rgba(206,183,189) */
+  --color-pri-purple-200: #ab789c; /* rgba(171,120,156) */
+  --color-pri-purple-300: #7c5371; /* rgba(124,83,113) */
+  --color-pri-purple-400: #522947; /* rgba(82,41,71) */
+  --color-pri-purple-500: #301829; /* rgba(48,24,41) */
+
+  --color-sec-yellow-100: #fff8f2; /* rgba(255,248,242) */
+  --color-sec-yellow-200: #f4ece3; /* rgba(244,236,227) */
+  --color-sec-yellow-300: #d8cec6; /* rgba(216,206,198) */
+  --color-sec-yellow-400: #c8baa0; /* rgba(200,186,160) */
+  --color-sec-yellow-500: #c4ac81; /* rgba(196,172,129) */
+  --color-sec-yellow-600: #a18c6d; /* rgba(161,140,109) */
+  --color-sec-yellow-700: #7d6e55; /* rgba(125,110,85) */
+  /* #ffe1d6 */
+  /* #3C4368 */
+
+  --color-sec-pink-100: #fbddd3; /* rgba(251,221,211) */
 }
 
+/* shadcn UI */
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -124,6 +138,7 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* Global */
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -133,3 +148,11 @@
   }
 }
 
+/* Components Styles */
+
+/* Sliders */
+@import "@/styles/sliders/heroSlider.css";
+@import "@/styles/sliders/themeSlider.css";
+
+/* Home */
+@import "@/styles/home/advantage.css";
