@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <div>
       <HeroCarousel />
+      <h1 className="text-2xl mb-4 font-bold">Welcome to Home Page</h1>
       <ThemeSlider />
       <Advantage />
-      <h1 className="text-2xl mb-4 font-bold">Welcome to Home Page</h1>
     </div>
   )
 }
