@@ -153,6 +153,4 @@
 /* Sliders */
 @import "@/styles/sliders/heroSlider.css";
 @import "@/styles/sliders/themeSlider.css";
-
-/* Home */
-@import "@/styles/home/advantage.css";
+@import "@/styles/sliders/recommendSlider.css";
