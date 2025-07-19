@@ -1,17 +1,15 @@
 .hero-slider {
-  @apply w-full font-lato overflow-hidden py-4 bg-sec-yellow-100;
-
   img {
-    @apply max-w-full block object-contain object-center;
+    @apply block max-w-full object-contain object-center;
   }
 
   .slider-container {
-    @apply max-w-full mx-auto h-auto;
+    @apply mx-auto h-auto max-w-full;
   }
 
   /* Swiper slide */
   .swiper-slide {
-    @apply relative h-auto min-[1296px]:h-[580px] overflow-hidden select-none bg-pri-purple-100 opacity-80;
+    @apply bg-pri-purple-100 relative h-auto select-none overflow-hidden opacity-80 min-[1296px]:h-[580px];
   }
 
   .swiper-slide-active {
@@ -46,22 +44,22 @@
   }
 
   .prev-btn {
-    @apply left-[1%] absolute cursor-pointer top-1/2 -translate-y-1/2 z-[5] hidden md:block text-4xl text-gray-900;
+    @apply absolute left-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
   }
   .next-btn {
-    @apply right-[1%] absolute cursor-pointer top-1/2 -translate-y-1/2 z-[5] hidden md:block  text-4xl text-gray-900;
+    @apply absolute right-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
   }
 
   /* Pagination */
   .swiper-pagination-bullet {
-    @apply w-[6px] h-[6px] bg-pri-purple-100 rounded-full;
-    &:hover{
+    @apply bg-pri-purple-100 h-[6px] w-[6px] rounded-full;
+    &:hover {
       @apply w-3 opacity-50;
     }
   }
 
   .swiper-pagination-bullet-active {
-    @apply w-6 bg-[#AB789C] rounded-full transition-all duration-[0.8s] ease-in-out;
+    @apply w-6 rounded-full bg-[#AB789C] transition-all duration-[0.8s] ease-in-out;
   }
 
   /* Content */
@@ -85,12 +83,12 @@
   }
 
   .swiper-slide-active .text-box {
-    @apply duration-[0.6s] delay-[0.3s] opacity-100;
+    @apply opacity-100 delay-[0.3s] duration-[0.6s];
     h2 {
-      @apply translate-y-0 opacity-100 duration-[0.6s] delay-[0.3s] ease-in;
+      @apply translate-y-0 opacity-100 delay-[0.3s] duration-[0.6s] ease-in;
     }
     .action-btn {
-      @apply opacity-100 duration-[0.8s] delay-[0.3s] ease-out;
+      @apply opacity-100 delay-[0.3s] duration-[0.8s] ease-out;
     }
   }
 }
