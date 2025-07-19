@@ -1,0 +1,20 @@
+.recommend-slider {
+  /* Pagination */
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    @apply min-[33.75rem]:bottom-[1%] -bottom-[10%];
+  }
+
+  .swiper-pagination-bullet {
+    @apply bg-pri-purple-100 h-[6px] w-[6px] rounded-full;
+    &:hover {
+      @apply w-3 opacity-50;
+    }
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply bg-pri-purple-200 w-6 rounded-full transition-all duration-[0.8s] ease-in-out;
+  }
+}
