@@ -148,7 +148,7 @@ const slidesData = [
 
 const HeroCarousel = () => {
   return (
-    <section className="hero-slider font-lato bg-pri-purple-100 w-full overflow-hidden pb-5 pt-[188px]">
+    <section className="hero-slider font-lato bg-pri-purple-100 w-full overflow-hidden py-5">
       <div className="slider-container">
         <Swiper
           centeredSlides={true}

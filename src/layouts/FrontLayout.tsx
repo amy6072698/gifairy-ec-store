@@ -6,7 +6,7 @@ const FrontLayout = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="pt-[168px]">
         <Outlet />
       </main>
       <Footer />
