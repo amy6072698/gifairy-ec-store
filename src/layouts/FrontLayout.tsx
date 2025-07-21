@@ -1,6 +1,6 @@
-import { Outlet } from "react-router-dom"
-import Header from "../components/front/Header"
-import Footer from "../components/front/Footer"
+import { Outlet } from "react-router-dom";
+import Header from "../components/front/Header";
+import Footer from "../components/front/Footer";
 
 const FrontLayout = () => {
   return (
@@ -9,9 +9,9 @@ const FrontLayout = () => {
       <main>
         <Outlet />
       </main>
-      <Footer/>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default FrontLayout
+export default FrontLayout;
