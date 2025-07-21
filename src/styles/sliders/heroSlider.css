@@ -1,6 +1,4 @@
 .hero-slider {
-  @apply font-lato bg-sec-yellow-100 w-full overflow-hidden py-4;
-
   img {
     @apply block max-w-full object-contain object-center;
   }
@@ -46,10 +44,17 @@
   }
 
   .prev-btn {
+<<<<<<< HEAD
     @apply hover:text-pri-purple-200 active:text-pri-purple-200 absolute left-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
   }
   .next-btn {
     @apply hover:text-pri-purple-200 active:text-pri-purple-200 absolute right-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
+=======
+    @apply absolute left-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
+  }
+  .next-btn {
+    @apply absolute right-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
+>>>>>>> dev
   }
 
   /* Pagination */
@@ -61,7 +66,11 @@
   }
 
   .swiper-pagination-bullet-active {
+<<<<<<< HEAD
     @apply bg-pri-purple-200 w-6 rounded-full transition-all duration-[0.8s] ease-in-out;
+=======
+    @apply w-6 rounded-full bg-[#AB789C] transition-all duration-[0.8s] ease-in-out;
+>>>>>>> dev
   }
 
   /* Content */

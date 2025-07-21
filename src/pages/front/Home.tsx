@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <div>
       <HeroCarousel />
+      <h1 className="mb-4 text-2xl font-bold">Welcome to Home Page</h1>
       <ThemeSlider />
       <RecommendSlider />
       <Advantage />
-      <h1 className="mb-4 text-2xl font-bold">Welcome to Home Page</h1>
     </div>
   );
 };

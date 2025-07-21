@@ -1,11 +1,11 @@
-import Navbar from "../common/Navbar"
+import Navbar from "../common/Navbar";
 
 const Header = () => {
   return (
     <header>
-      {/* <Navbar /> */}
+      <Navbar />
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
