@@ -39,7 +39,7 @@ export const PillButton = ({
     <ShadcnButton
       variant={variant}
       onClick={onClick}
-      className={`rounded-full cursor-pointer ${className}`}
+      className={`cursor-pointer rounded-full ${className}`}
       {...(isAsChild && { asChild: true })}
     >
       {children}
@@ -58,7 +58,7 @@ export const PrimaryButton = ({
     <ShadcnButton
       variant={variant}
       onClick={onClick}
-      className={`rounded-full cursor-pointer bg-pri-purple-400 text-white hover:bg-pri-purple-300 active:shadow-[0_0_2px_2px_rgba(82,41,71)]  duration-[0.3s] ${className}`}
+      className={`bg-pri-purple-400 hover:bg-pri-purple-300 cursor-pointer rounded-full text-white duration-[0.3s] active:shadow-[0_0_2px_2px_rgba(82,41,71)] ${className}`}
       {...(isAsChild && { asChild: true })}
     >
       {children}
@@ -77,7 +77,7 @@ export const SecondaryButton = ({
     <ShadcnButton
       variant={variant}
       onClick={onClick}
-      className={`rounded-full cursor-pointer bg-sec-yellow-200 text-pri-purple-400 hover:bg-sec-yellow-200 shadow-[inset_0_0_0_2px_rgba(82,41,71,0.3)] hover:shadow-[inset_0_0_0_2px_rgba(82,41,71,0.8)] active:shadow-[0px_0_4px_2px_rgba(82,41,71)] duration-[0.3s] ${className}`}
+      className={`bg-sec-yellow-200 text-pri-purple-400 hover:bg-sec-yellow-200 cursor-pointer rounded-full shadow-[inset_0_0_0_2px_rgba(82,41,71,0.3)] duration-[0.3s] hover:shadow-[inset_0_0_0_2px_rgba(82,41,71,0.8)] active:shadow-[0px_0_4px_2px_rgba(82,41,71)] ${className}`}
       {...(isAsChild && { asChild: true })}
     >
       {children}
