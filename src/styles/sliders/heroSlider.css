@@ -7,7 +7,7 @@
     @apply mx-auto h-auto max-w-full;
   }
 
-  /* Swiper slide */
+  /* Swiper slider */
   .swiper-slide {
     @apply bg-pri-purple-100 relative h-auto select-none overflow-hidden opacity-80 min-[1296px]:h-[580px];
   }
@@ -20,12 +20,12 @@
   }
 
   /* Navigation */
-  .swiper-slide-prev:hover {
-    @apply opacity-100;
+  .swiper-slide-prev {
+    @apply hover:opacity-100;
   }
 
-  .swiper-slide-next:hover {
-    @apply opacity-100;
+  .swiper-slide-next {
+    @apply hover:opacity-100;
   }
 
   .swiper {
@@ -44,10 +44,10 @@
   }
 
   .prev-btn {
-    @apply absolute left-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
+    @apply hover:text-pri-purple-200 active:text-pri-purple-200 absolute left-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
   }
   .next-btn {
-    @apply absolute right-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
+    @apply hover:text-pri-purple-200 active:text-pri-purple-200 absolute right-[1%] top-1/2 z-[5] hidden -translate-y-1/2 cursor-pointer text-4xl text-gray-900 md:block;
   }
 
   /* Pagination */
@@ -59,7 +59,7 @@
   }
 
   .swiper-pagination-bullet-active {
-    @apply w-6 rounded-full bg-[#AB789C] transition-all duration-[0.8s] ease-in-out;
+    @apply bg-pri-purple-200 w-6 rounded-full transition-all duration-[0.8s] ease-in-out;
   }
 
   /* Content */

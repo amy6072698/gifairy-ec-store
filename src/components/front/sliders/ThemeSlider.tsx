@@ -51,7 +51,7 @@ const ThemeSlider = () => {
   return (
     <section className="theme-slider p-10">
       <div className="top-title">
-        <h2>魔鏡精選禮物</h2>
+        <h2>魔鏡精選主題</h2>
       </div>
       <div className="slider-container">
         <Swiper

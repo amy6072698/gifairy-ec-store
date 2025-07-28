@@ -1,29 +1,29 @@
 .theme-slider {
-  @apply bg-pri-purple-500 text-white flex flex-col justify-center items-center min-h-full overflow-hidden;
+  @apply bg-pri-purple-500 flex min-h-full flex-col items-center justify-center overflow-hidden text-white;
 
   .top-title {
-    @apply text-[1.75rem] sm:text-[2rem] md:text-[2.375rem] mb-4 sm:mb-6 text-sec-yellow-300 text-center;
+    @apply text-sec-yellow-300 mb-4 text-center text-[1.75rem] font-medium sm:mb-6 sm:text-[2rem] md:text-[2.375rem];
   }
 
   /* Swiper slider */
   .swiper {
-    @apply max-w-[1140px] mx-auto overflow-hidden;
+    @apply mx-auto max-w-[1140px] overflow-hidden;
   }
 
   .swiper-slide {
-    @apply w-[230px] sm:w-[280px] rounded-[160px] mb-[-40px] md:mb-[-120px] select-none;
+    @apply mb-[-40px] w-[230px] select-none rounded-[160px] sm:w-[280px] md:mb-[-120px];
     img {
-      @apply block w-full h-[300px] sm:h-[360px] object-cover object-center rounded-[160px] p-3 bg-[rgba(125,110,85,0.5)] brightness-60 transition-all duration-[0.4s] ease-in-out;
+      @apply brightness-60 block h-[300px] w-full rounded-[160px] bg-[rgba(125,110,85,0.5)] object-cover object-center p-3 transition-all duration-[0.4s] ease-in-out sm:h-[360px];
     }
   }
 
   .swiper-slide-active img {
-    @apply p-[6px] bg-[rgba(196,172,129,0.6)] shadow-[0_1px_2px_2px_rgba(68,60,46,0.9),0_0_2px_4px_rgba(196,172,129,0.9),0_0_20px_5px_rgba(255,225,168,0.5)] brightness-100;
+    @apply bg-[rgba(196,172,129,0.6)] p-[6px] shadow-[0_1px_2px_2px_rgba(68,60,46,0.9),0_0_2px_4px_rgba(196,172,129,0.9),0_0_20px_5px_rgba(255,225,168,0.5)] brightness-100;
   }
 
   /* Text */
   .swiper-slide .title {
-    @apply text-center text-[1.375rem] sm:text-[1.5rem] w-[max-content] mx-auto mb-3 sm:mb-4 bg-linear-[40deg,rgba(196,172,129),rgb(171,120,156)] bg-clip-text text-[rgba(0,0,0,0)] opacity-0 transition-all duration-[0.5s] ease-in-out;
+    @apply bg-linear-[40deg,rgba(196,172,129),rgb(171,120,156)] mx-auto mb-3 w-[max-content] bg-clip-text text-center text-[1.375rem] text-[rgba(0,0,0,0)] opacity-0 transition-all duration-[0.5s] ease-in-out sm:mb-4 sm:text-[1.5rem];
     clip-path: circle(0%, at 50%, 50%);
   }
 
@@ -33,9 +33,9 @@
   }
 
   .swiper-slide .text-box {
-    @apply flex flex-col items-center justify-center text-center text-neutral-200 w-[230px] aspect-[2/1] sm:aspect-[1/1] rounded-[20px] sm:rounded-[50%] border-[1px] border-[rgba(95,92,94,0.8)] bg-[rgba(95,92,94,0.45)] backdrop-blur-[50px] shadow-[0_4px_30px_rgba(0,0,0,0.1)] p-3 sm:py-6 translate-x-0 sm:translate-x-[180px] md:translate-x-[200px] translate-y-[-40px] sm:translate-y-[-80px] md:translate-y-[-140px] opacity-0 transition-all duration-[0.5s] ease-in-out text-shadow-[1px_1px_2px_rgba(0,0,0,0.5)];
+    @apply text-shadow-[1px_1px_2px_rgba(0,0,0,0.5)] flex aspect-[2/1] w-[230px] translate-x-0 translate-y-[-40px] flex-col items-center justify-center rounded-[20px] border-[1px] border-[rgba(95,92,94,0.8)] bg-[rgba(95,92,94,0.45)] p-3 text-center text-neutral-200 opacity-0 shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[50px] transition-all duration-[0.5s] ease-in-out sm:aspect-[1/1] sm:translate-x-[180px] sm:translate-y-[-80px] sm:rounded-[50%] sm:py-6 md:translate-x-[200px] md:translate-y-[-140px];
     h3 {
-      @apply text-sec-pink-100 text-[1rem] sm:text-[1.125rem] mb-2;
+      @apply text-sec-pink-100 mb-2 text-[1rem] sm:text-[1.125rem];
     }
     p {
       @apply text-[0.9rem]/[1.3] md:text-[0.95rem]/[1.5];
@@ -43,18 +43,18 @@
   }
 
   .swiper-slide-active .text-box {
-    @apply opacity-100 translate-y-[-80px] sm:translate-y-[-100px] md:translate-y-[-160px] transition-all duration-[0.8s] ease-in delay-[0.2s];
+    @apply translate-y-[-80px] opacity-100 transition-all delay-[0.2s] duration-[0.8s] ease-in sm:translate-y-[-100px] md:translate-y-[-160px];
   }
 
   /* Pagination */
   .swiper-pagination-bullet {
-    @apply w-[6px] h-[6px] bg-pri-purple-100 rounded-full;
+    @apply bg-pri-purple-100 h-[6px] w-[6px] rounded-full;
     &:hover {
       @apply w-3 opacity-50;
     }
   }
 
   .swiper-pagination-bullet-active {
-    @apply w-6 bg-[#AB789C] rounded-full transition-all duration-[0.3s] ease-in-out;
+    @apply bg-pri-purple-200 w-6 rounded-full transition-all duration-[0.3s] ease-in-out;
   }
 }
