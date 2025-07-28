@@ -9,6 +9,13 @@
 /* shadcn UI */
 @custom-variant dark (&:is(.dark *));
 
+/* Swiper Styles */
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/effect-cards";
+@import "swiper/css/effect-coverflow";
+
 /* custom theme */
 @theme {
   --font-lato: "Lato", "Noto Sans TC", sans-serif;

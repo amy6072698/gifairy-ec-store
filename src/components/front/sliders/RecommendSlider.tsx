@@ -3,10 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FaStar } from "react-icons/fa";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/effect-cards";
 import { useRef, useState } from "react";
+import type { Swiper as SwiperType } from "swiper/types";
 
 const recommendSlidesData = [
   {
@@ -100,7 +98,7 @@ const reviewsData = [
 
 const RecommendSlider = () => {
   const [activeIndex, setActiveIndex] = useState<number>(0);
-  const swiperRef = useRef<any>(null);
+  const swiperRef = useRef<SwiperType>(null);
 
   return (
     <section className="recommend-slider bg-sec-yellow-300 py-10">

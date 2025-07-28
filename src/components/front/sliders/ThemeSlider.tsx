@@ -1,10 +1,6 @@
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/effect-coverflow";
-
 const themeSlidesData = [
   {
     image: "/src/assets/themeSlides/slide1.jpg",
