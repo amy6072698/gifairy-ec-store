@@ -21,7 +21,7 @@ const Advantage = () => {
   );
 
   return (
-    <section className="advantage bg-pri-purple-400 before:h-43 before:bg-sec-yellow-100 before:block before:w-full before:content-['']">
+    <section className="advantage bg-pri-purple-400 before:h-43 before:-mt-25 before:block before:w-full before:bg-white before:content-['']">
       <div className="mx-auto flex max-w-[1140px] flex-col justify-center gap-x-3 py-10 xl:flex-row-reverse">
         {/* main image */}
         <div className="w-fll p-10 md:mb-10 xl:relative xl:w-5/12">
@@ -36,7 +36,7 @@ const Advantage = () => {
         </div>
         {/* content */}
         <div className="content w-fll p-3 xl:mr-10 xl:w-7/12">
-          <h2 className="text-sec-yellow-200 mb-4 text-center text-[1.75rem] sm:text-[2rem] md:mb-8 md:text-[2.375rem]">
+          <h2 className="text-sec-yellow-200 mb-4 text-center text-[1.75rem] font-medium sm:text-[2rem] md:mb-8 md:text-[2.375rem]">
             送禮就選 Gifairy
           </h2>
           <ul className="flex flex-col gap-y-6">
@@ -47,7 +47,7 @@ const Advantage = () => {
                 alt="多元主題任你挑選"
               />
               <div className="text-box text-sec-yellow-600 mr-3 text-center sm:text-start xl:mr-10">
-                <h3 className="text-sec-yellow-400 mb-1 text-[1.25rem] md:text-[1.5rem]">
+                <h3 className="text-sec-yellow-400 mb-1 text-[1.25rem] font-medium md:text-[1.5rem]">
                   多元主題任你挑選
                 </h3>
                 <p className="text-[0.9rem]/[1.3] sm:text-[1rem]/[1.5]">
@@ -62,7 +62,7 @@ const Advantage = () => {
                 alt="質感選品更顯心意"
               />
               <div className="text-box text-sec-yellow-600 ml-3 text-center sm:text-start xl:ml-10">
-                <h3 className="text-sec-yellow-400 mb-1 text-[1.25rem] md:text-[1.5rem]">
+                <h3 className="text-sec-yellow-400 mb-1 text-[1.25rem] font-medium md:text-[1.5rem]">
                   質感選品更顯心意
                 </h3>
                 <p className="text-[0.9rem]/[1.3] sm:text-[1rem]/[1.5]">
@@ -77,7 +77,7 @@ const Advantage = () => {
                 alt="包裝送禮一站完成"
               />
               <div className="text-box text-sec-yellow-600 mr-3 text-center sm:text-start xl:mr-10">
-                <h3 className="text-sec-yellow-400 mb-1 text-[1.25rem] md:text-[1.5rem]">
+                <h3 className="text-sec-yellow-400 mb-1 text-[1.25rem] font-medium md:text-[1.5rem]">
                   包裝送禮一站完成
                 </h3>
                 <p className="text-[0.9rem]/[1.3] sm:text-[1rem]/[1.5]">

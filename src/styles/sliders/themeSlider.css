@@ -2,7 +2,7 @@
   @apply bg-pri-purple-500 flex min-h-full flex-col items-center justify-center overflow-hidden text-white;
 
   .top-title {
-    @apply text-sec-yellow-300 mb-4 text-center text-[1.75rem] sm:mb-6 sm:text-[2rem] md:text-[2.375rem];
+    @apply text-sec-yellow-300 mb-4 text-center text-[1.75rem] font-medium sm:mb-6 sm:text-[2rem] md:text-[2.375rem];
   }
 
   /* Swiper slider */

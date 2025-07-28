@@ -106,8 +106,8 @@ const RecommendSlider = () => {
     <section className="recommend-slider bg-sec-yellow-300 py-10">
       <div className="mx-auto max-w-[1140px] px-3">
         <div className="top-title">
-          <h2 className="text-pri-purple-400 min-[62rem]:text-[2.375rem] min-[62rem]:mb-8 mb-4 text-center text-[1.75rem] sm:text-[2rem]">
-            來看看收禮回饋
+          <h2 className="text-pri-purple-400 min-[62rem]:text-[2.375rem] min-[62rem]:mb-8 mb-4 text-center text-[1.75rem] font-medium sm:text-[2rem]">
+            客戶收禮驚喜回饋
           </h2>
         </div>
         <div className="content min-[62rem]:flex-row bg-pri-purple-300 min-[62rem]:gap-6 min-[62rem]:px-5 min-[62rem]:pb-0 relative mx-4 flex flex-col px-0 pb-4">
