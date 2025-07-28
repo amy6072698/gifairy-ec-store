@@ -11,7 +11,7 @@ const heroSlidesData = [
   {
     id: 1,
     image:
-      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero-slider/slide1.png?raw=true",
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero_slider/slide1.png?raw=true",
     link: "/products",
     subtitle: "讓你的每份禮物",
     subtitleClass:
@@ -28,7 +28,7 @@ const heroSlidesData = [
   {
     id: 2,
     image:
-      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero-slider/slide2.png?raw=true",
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero_slider/slide2.png?raw=true",
     link: "/products",
     subtitle: "送禮沒靈感？",
     subtitleClass:
@@ -45,7 +45,7 @@ const heroSlidesData = [
   {
     id: 3,
     image:
-      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero-slider/slide3.png?raw=true",
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero_slider/slide3.png?raw=true",
     link: "/products",
     subtitle: "這個情人節",
     subtitleClass:
@@ -62,7 +62,7 @@ const heroSlidesData = [
   {
     id: 4,
     image:
-      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero-slider/slide4.png?raw=true",
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero_slider/slide4.png?raw=true",
     link: "/products",
     subtitle: "聖誕節很煩惱？",
     subtitleClass:
@@ -79,7 +79,7 @@ const heroSlidesData = [
   {
     id: 5,
     image:
-      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero-slider/slide1.png?raw=true",
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero_slider/slide1.png?raw=true",
     link: "/products",
     subtitle: "讓你的每份禮物",
     subtitleClass:
@@ -96,7 +96,7 @@ const heroSlidesData = [
   {
     id: 6,
     image:
-      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero-slider/slide2.png?raw=true",
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero_slider/slide2.png?raw=true",
     link: "/products",
     subtitle: "送禮沒靈感？",
     subtitleClass:
@@ -113,7 +113,7 @@ const heroSlidesData = [
   {
     id: 7,
     image:
-      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero-slider/slide3.png?raw=true",
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero_slider/slide3.png?raw=true",
     link: "/products",
     subtitle: "這個情人節",
     subtitleClass:
@@ -130,7 +130,7 @@ const heroSlidesData = [
   {
     id: 8,
     image:
-      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero-slider/slide4.png?raw=true",
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/hero_slider/slide4.png?raw=true",
     link: "/products",
     subtitle: "聖誕節很煩惱？",
     subtitleClass:

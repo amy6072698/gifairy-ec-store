@@ -8,31 +8,38 @@ import type { Swiper as SwiperType } from "swiper/types";
 
 const recommendSlidesData = [
   {
-    image: "/src/assets/recommendSlides/slide1.png",
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/slide1.png?raw=true",
     title: "選物特別有溫度",
   },
   {
-    image: "/src/assets/recommendSlides/slide2.png",
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/slide2.png?raw=true",
     title: "客製花束配色",
   },
   {
-    image: "/src/assets/recommendSlides/slide3.png",
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/slide3.png?raw=true",
     title: "包裝用心又省心",
   },
   {
-    image: "/src/assets/recommendSlides/slide4.png",
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/slide4.png?raw=true",
     title: "情人節選禮救星",
   },
   {
-    image: "/src/assets/recommendSlides/slide5.png",
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/slide5.png?raw=true",
     title: "送禮不怕沒靈感",
   },
   {
-    image: "/src/assets/recommendSlides/slide6.png",
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/slide6.png?raw=true",
     title: "網購像逛美術館",
   },
   {
-    image: "/src/assets/recommendSlides/slide7.png",
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/slide7.png?raw=true",
     title: "美食禮盒好吃又好看",
   },
 ];
@@ -40,7 +47,8 @@ const recommendSlidesData = [
 const reviewsData = [
   {
     user: "sunny_day",
-    userImage: "/src/assets/recommendSlides/user1.png",
+    userImage:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/user1.png?raw=true",
     date: "2022-07-05",
     title: "選物特別，居然有蛋糕 DIY 組！",
     content:
@@ -48,7 +56,8 @@ const reviewsData = [
   },
   {
     user: "bridalbliss88",
-    userImage: "/src/assets/recommendSlides/user2.png",
+    userImage:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/user2.png?raw=true",
     date: "2023-05-12",
     title: "婚禮花束竟然能客製配色！",
     content:
@@ -56,7 +65,8 @@ const reviewsData = [
   },
   {
     user: "xmascat",
-    userImage: "/src/assets/recommendSlides/user3.png",
+    userImage:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/user3.png?raw=true",
     date: "2024-12-20",
     title: "聖誕禮物包裝可愛到不行！",
     content:
@@ -64,7 +74,8 @@ const reviewsData = [
   },
   {
     user: "tomatoguy",
-    userImage: "/src/assets/recommendSlides/user4.png",
+    userImage:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/user4.png?raw=true",
     date: "2025-03-14",
     title: "白色情人節太需要這個網站",
     content:
@@ -72,7 +83,8 @@ const reviewsData = [
   },
   {
     user: "justforu_777",
-    userImage: "/src/assets/recommendSlides/user5.png",
+    userImage:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/user5.png?raw=true",
     date: "2023-06-20",
     title: "畢業禮物找這裡就對了！",
     content:
@@ -80,7 +92,8 @@ const reviewsData = [
   },
   {
     user: "artlover_jane",
-    userImage: "/src/assets/recommendSlides/user6.png",
+    userImage:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/user6.png?raw=true",
     date: "2025-02-22",
     title: "美術館感禮物太有質感了",
     content:
@@ -88,7 +101,8 @@ const reviewsData = [
   },
   {
     user: "foodie_annie",
-    userImage: "/src/assets/recommendSlides/user7.png",
+    userImage:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/recommend_slider/user7.png?raw=true",
     date: "2024-04-10",
     title: "餅乾禮盒也有設計感？驚喜！",
     content:

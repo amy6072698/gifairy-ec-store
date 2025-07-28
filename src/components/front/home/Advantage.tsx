@@ -14,7 +14,7 @@ const Advantage = () => {
     // after
     "after:absolute after:-bottom-[8%] after:left-[25%] after:z-[2]",
     "after:block after:h-[50%] after:w-[80%] after:content-['']",
-    "after:bg-[url('/src/assets/home/advantage-star-light.svg')]",
+    "after:bg-[url('https://raw.githubusercontent.com/amy6072698/my-images/280c6c834906e7e98b61d241df16d273c1b70cf3/gifairy-ec-store/front/home/advantage/advantage-star-light.svg')]",
     "after:bg-position-[center] after:rotate-[5deg] after:bg-contain after:bg-no-repeat",
     "xl:after:rotate-none xl:after:bottom-[8%] xl:after:h-[60%] xl:after:w-[90%]",
     "min-[82.5rem]:after:left-[32%]",
@@ -29,7 +29,7 @@ const Advantage = () => {
             <img
               width="540px"
               className="block rounded-t-full xl:absolute xl:-top-[20%] xl:left-0"
-              src="/src/assets/home/advantage-main.png"
+              src="https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/home/advantage/advantage-main.png?raw=true"
               alt="送禮就選 Gifairy"
             />
           </div>
@@ -43,7 +43,7 @@ const Advantage = () => {
             <li className="flex flex-col items-center justify-center gap-8 rounded-full sm:flex-row xl:justify-between">
               <img
                 className="max-w-[160px] sm:max-w-[200px]"
-                src="/src/assets/home/advantage-image1.svg"
+                src="https://raw.githubusercontent.com/amy6072698/my-images/280c6c834906e7e98b61d241df16d273c1b70cf3/gifairy-ec-store/front/home/advantage/advantage-image1.svg"
                 alt="多元主題任你挑選"
               />
               <div className="text-box text-sec-yellow-600 mr-3 text-center sm:text-start xl:mr-10">
@@ -58,7 +58,7 @@ const Advantage = () => {
             <li className="flex flex-col items-center justify-center gap-8 sm:flex-row-reverse xl:justify-between">
               <img
                 className="max-w-[160px] sm:max-w-[200px]"
-                src="/src/assets/home/advantage-image2.svg"
+                src="https://raw.githubusercontent.com/amy6072698/my-images/280c6c834906e7e98b61d241df16d273c1b70cf3/gifairy-ec-store/front/home/advantage/advantage-image2.svg"
                 alt="質感選品更顯心意"
               />
               <div className="text-box text-sec-yellow-600 ml-3 text-center sm:text-start xl:ml-10">
@@ -73,7 +73,7 @@ const Advantage = () => {
             <li className="flex flex-col items-center justify-center gap-8 sm:flex-row xl:justify-between">
               <img
                 className="max-w-[160px] sm:max-w-[200px]"
-                src="/src/assets/home/advantage-image3.svg"
+                src="https://raw.githubusercontent.com/amy6072698/my-images/280c6c834906e7e98b61d241df16d273c1b70cf3/gifairy-ec-store/front/home/advantage/advantage-image3.svg"
                 alt="包裝送禮一站完成"
               />
               <div className="text-box text-sec-yellow-600 mr-3 text-center sm:text-start xl:mr-10">
