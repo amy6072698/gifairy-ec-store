@@ -1,7 +1,7 @@
 import Home from "../pages/front/Home";
 import About from "../pages/front/About";
 import Products from "../pages/front/Products";
-import FrontLayout from "../layouts/FrontLayout";
+import FrontLayout from "../layouts/front/FrontLayout";
 
 export const frontRoutes = {
   path: "/",

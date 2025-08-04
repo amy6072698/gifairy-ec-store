@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
-import Header from "../components/front/Header";
-import Footer from "../components/front/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const FrontLayout = () => {
   return (
     <>
       <Header />
-      <main className="pt-[168px]">
+      <main className="pt-24 sm:pt-28 md:pt-[158px]">
         <Outlet />
       </main>
       <Footer />

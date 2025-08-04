@@ -1,4 +1,4 @@
-import AdminLayout from "../layouts/AdminLayout";
+import AdminLayout from "../layouts/admin/AdminLayout";
 import Dashboard from "../pages/admin/Dashboard";
 
 export const adminRoutes = {
@@ -7,7 +7,7 @@ export const adminRoutes = {
   children: [
     {
       path: "dashboard",
-      element: <Dashboard />
-    }
-  ]
-}
+      element: <Dashboard />,
+    },
+  ],
+};
