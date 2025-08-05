@@ -232,3 +232,319 @@ export const newProductsData: Product[] = [
     price: 580,
   },
 ];
+
+export const productsData: Product[] = [
+  // 配件飾品
+  {
+    id: 1,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/accessories/1.png?raw=true",
+    category: "配件飾品",
+    title: "環形鑽石耳釘",
+    price: 990,
+  },
+  {
+    id: 2,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/accessories/2.png?raw=true",
+    category: "配件飾品",
+    title: "簡約風鑽石戒指",
+    status: "優惠",
+    originPrice: 2980,
+    price: 1990,
+  },
+  {
+    id: 3,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/accessories/3.png?raw=true",
+    category: "配件飾品",
+    title: "極簡水滴珍珠項鍊",
+    status: "優惠",
+    originPrice: 250,
+    price: 190,
+  },
+  {
+    id: 4,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/accessories/4.png?raw=true",
+    category: "配件飾品",
+    title: "桃花滿滿粉水晶手串",
+    status: "優惠",
+    originPrice: 400,
+    price: 250,
+  },
+  {
+    id: 5,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/accessories/5.png?raw=true",
+    category: "配件飾品",
+    title: "海藍寶設計款水晶手串",
+    status: "優惠",
+    originPrice: 480,
+    price: 280,
+  },
+  {
+    id: 6,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/accessories/6.png?raw=true",
+    category: "配件飾品",
+    title: "葡萄石水晶手串",
+    status: "優惠",
+    originPrice: 580,
+    price: 450,
+  },
+  {
+    id: 7,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/accessories/7.png?raw=true",
+    category: "配件飾品",
+    title: "大容量皮革手提包",
+    price: 790,
+  },
+  {
+    id: 8,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/accessories/8.png?raw=true",
+    category: "配件飾品",
+    title: "米色簡約方扣長夾",
+    price: 390,
+  },
+  {
+    id: 9,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/accessories/9.png?raw=true",
+    category: "配件飾品",
+    title: "金屬框中性墨鏡",
+    price: 490,
+  },
+
+  // 居家生活
+  {
+    id: 10,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/lifestyle/1.png?raw=true",
+    category: "居家生活",
+    title: "玫瑰佳人香水",
+    status: "優惠",
+    originPrice: 1450,
+    price: 1200,
+  },
+  {
+    id: 11,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/lifestyle/2.png?raw=true",
+    category: "居家生活",
+    title: "玫瑰造型擴香石",
+    price: 280,
+  },
+  {
+    id: 12,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/lifestyle/3.png?raw=true",
+    category: "居家生活",
+    title: "好眠薰衣草香氛蠟燭",
+    status: "優惠",
+    originPrice: 180,
+    price: 80,
+  },
+  {
+    id: 13,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/lifestyle/4.png?raw=true",
+    category: "居家生活",
+    title: "紫色飛燕草永生花盆栽",
+    status: "優惠",
+    originPrice: 390,
+    price: 280,
+  },
+  {
+    id: 14,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/lifestyle/5.png?raw=true",
+    category: "居家生活",
+    title: "復古火車香氛機",
+    price: 1680,
+  },
+  {
+    id: 15,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/lifestyle/6.png?raw=true",
+    category: "居家生活",
+    title: "月亮床邊夜燈",
+    status: "優惠",
+    originPrice: 680,
+    price: 580,
+  },
+  {
+    id: 16,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/lifestyle/7.png?raw=true",
+    category: "居家生活",
+    title: "寧靜藍玫瑰永生花束盒",
+    status: "優惠",
+    originPrice: 380,
+    price: 280,
+  },
+  {
+    id: 17,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/lifestyle/8.png?raw=true",
+    category: "居家生活",
+    title: "紫色幻想玫瑰永生花束",
+    status: "優惠",
+    originPrice: 280,
+    price: 180,
+  },
+
+  // 風格文具
+  {
+    id: 18,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/stationery/1.png?raw=true",
+    category: "風格文具",
+    title: "復古火漆印章組",
+    price: 650,
+  },
+  {
+    id: 19,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/stationery/2.png?raw=true",
+    category: "風格文具",
+    title: "文青皮革環扣筆袋",
+    status: "優惠",
+    originPrice: 480,
+    price: 380,
+  },
+  {
+    id: 20,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/stationery/3.png?raw=true",
+    category: "風格文具",
+    title: "就愛幾何筆記本",
+    status: "優惠",
+    originPrice: 120,
+    price: 99,
+  },
+  {
+    id: 21,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/stationery/4.png?raw=true",
+    category: "風格文具",
+    title: "金屬銀羽葉書籤",
+    status: "優惠",
+    originPrice: 99,
+    price: 59,
+  },
+  {
+    id: 22,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/stationery/5.png?raw=true",
+    category: "風格文具",
+    title: "復古金箔鋼筆",
+    status: "優惠",
+    originPrice: 680,
+    price: 580,
+  },
+  {
+    id: 23,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/stationery/6.png?raw=true",
+    category: "風格文具",
+    title: "文青大容量皮革筆袋",
+    status: "優惠",
+    originPrice: 580,
+    price: 480,
+  },
+  {
+    id: 24,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/stationery/7.png?raw=true",
+    category: "風格文具",
+    title: "涼風秋葉筆記本",
+    price: 180,
+  },
+  {
+    id: 25,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/stationery/8.png?raw=true",
+    category: "風格文具",
+    title: "復古木紋鋼筆",
+    status: "優惠",
+    originPrice: 680,
+    price: 580,
+  },
+
+  // 品味美食
+  {
+    id: 26,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/gourmet/1.png?raw=true",
+    category: "品味美食",
+    title: "婚禮小物繽紛棒棒糖",
+    status: "優惠",
+    originPrice: 1200,
+    price: 980,
+  },
+  {
+    id: 27,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/gourmet/2.png?raw=true",
+    category: "品味美食",
+    title: "婚禮小物粉愛棒棒糖",
+    price: 880,
+  },
+  {
+    id: 28,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/gourmet/3.png?raw=true",
+    category: "品味美食",
+    title: "聖誕拐杖糖禮袋",
+    price: 280,
+  },
+  {
+    id: 29,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/gourmet/4.png?raw=true",
+    category: "品味美食",
+    title: "我愛巧克生日蛋糕 DIY 組",
+    status: "優惠",
+    originPrice: 350,
+    price: 280,
+  },
+  {
+    id: 30,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/gourmet/5.png?raw=true",
+    category: "品味美食",
+    title: "聖誕雪花薑餅",
+    status: "優惠",
+    originPrice: 290,
+    price: 180,
+  },
+  {
+    id: 31,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/gourmet/6.png?raw=true",
+    category: "品味美食",
+    title: "告白愛意巧克力禮盒",
+    status: "優惠",
+    originPrice: 390,
+    price: 290,
+  },
+  {
+    id: 32,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/gourmet/7.png?raw=true",
+    category: "品味美食",
+    title: "貴氣十足紅酒禮盒",
+    price: 1280,
+  },
+  {
+    id: 33,
+    image:
+      "https://github.com/amy6072698/my-images/blob/main/gifairy-ec-store/front/products/gourmet/8.png?raw=true",
+    category: "品味美食",
+    title: "精品茶葉禮盒",
+    price: 1880,
+  },
+];

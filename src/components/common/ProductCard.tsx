@@ -3,28 +3,30 @@ import { GoHeartFill } from "react-icons/go";
 
 interface ProductCardProps {
   product: Product;
+  className?: string;
 }
 
-const ProductCard = ({ product }: ProductCardProps) => {
+const ProductCard = ({ product, className }: ProductCardProps) => {
   return (
-    <div key={product.id} className="p-2 sm:p-4">
+    <div key={product.id} className={`group cursor-pointer ${className}`}>
       <div className="product-image relative mb-3 overflow-hidden rounded-[2px]">
+        <div className="bg-linear-[180deg,rgba(0,0,0,0)_70%,rgba(0,0,0,0.2)_90%,rgba(0,0,0,0.4)] absolute inset-0 z-[1] opacity-0 group-hover:opacity-100"></div>
         <img
-          className="h-full w-full object-cover duration-[0.3s] hover:scale-[1.1]"
+          className="h-full w-full object-cover duration-[0.3s] group-hover:scale-[1.1]"
           src={product.image}
           alt={product.title}
         />
         {product.status && (
-          <div className="absolute top-0 rounded-br-[2px] bg-red-400 px-2 text-white">
+          <div className="absolute top-0 z-[2] rounded-br-[2px] bg-red-400 px-2 text-white">
             <span className="text-[0.875rem]/[1.75]">{product.status}</span>
           </div>
         )}
 
-        <div className="absolute bottom-1 right-1">
-          <button className="hover:text-pri-purple-100 m-2 cursor-pointer text-white">
+        <div className="absolute bottom-1 right-1 z-[2]">
+          <button className="cursor-pointer p-2">
             <GoHeartFill
               size="1.5rem"
-              className="fill-[rgba(0,0,0,0.5)] stroke-white stroke-2 hover:fill-black"
+              className="group-hover:fill-pri-purple-400 fill-[rgba(82,41,71,0.5)] stroke-white stroke-[1.5]"
             />
           </button>
         </div>
