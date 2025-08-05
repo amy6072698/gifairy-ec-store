@@ -92,7 +92,7 @@ const ProductSlider = ({ title, products }: ProductSliderProps) => {
         <div className="slider-container h-full w-full">
           <Slider {...settings}>
             {products.map((product) => (
-              <ProductCard product={product} />
+              <ProductCard product={product} className="p-2 sm:p-4" />
             ))}
           </Slider>
         </div>
