@@ -15,6 +15,7 @@
 @import "swiper/css/pagination";
 @import "swiper/css/effect-cards";
 @import "swiper/css/effect-coverflow";
+@import "swiper/css/thumbs";
 
 /* custom theme */
 @theme {

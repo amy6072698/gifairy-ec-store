@@ -7,6 +7,10 @@ const router = createHashRouter([
   frontRoutes,
   adminRoutes,
   {
+    path: "/not-found",
+    element: <Notfound />,
+  },
+  {
     path: "*",
     element: <Notfound />,
   },

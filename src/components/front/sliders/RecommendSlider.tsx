@@ -1,10 +1,10 @@
 import { Pagination, EffectCards } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FaStar } from "react-icons/fa";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 import { useRef, useState } from "react";
 import type { Swiper as SwiperType } from "swiper/types";
+import RatingStars from "@/components/common/RatingStars";
 
 const recommendSlidesData = [
   {
@@ -200,12 +200,10 @@ const RecommendSlider = () => {
                     <h2 className="text-pri-purple-300 min-[62rem]:text-[1.25rem] mb-1 text-[1rem] sm:text-[1.125rem]">
                       {review.title}
                     </h2>
-                    <div className="text-sec-yellow-500 min-[62rem]:justify-start mb-2 flex items-center justify-center gap-1">
-                      {Array.from({ length: 5 }).map((_, index) => (
-                        <FaStar key={index} />
-                      ))}
-                      <span>5.0</span>
-                    </div>
+                    <RatingStars
+                      rating={5}
+                      className="min-[62rem]:justify-start mb-2 justify-center gap-1"
+                    />
                     <p className="min-[62rem]:text-[1rem] min-[62rem]:px-0 mx-1 mb-6 text-start text-[0.9rem] text-neutral-600 sm:px-6 md:px-12">
                       {review.content}
                     </p>
