@@ -3,7 +3,7 @@ import ProductContents from "@/components/front/productDetail/ProductContents";
 import ProductDescription from "@/components/front/productDetail/ProductDescription";
 import ProductReviews from "@/components/front/productDetail/ProductReviews";
 import RecommendProducts from "@/components/front/productDetail/RecommendProducts";
-import { productsData } from "@/data/products";
+import { productsData } from "@/data/products/products";
 import { useEffect } from "react";
 import { useLocation } from "react-router";
 
@@ -28,6 +28,7 @@ const ProductDetail = () => {
         product={product}
         onNavigate={navigate}
         location={location.pathname}
+        className="ml-10"
       />
       {/* Product Contents */}
       <ProductContents product={product} />

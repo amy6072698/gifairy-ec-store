@@ -7,7 +7,7 @@ import {
   hotProductsData,
   newProductsData,
   saleProductsData,
-} from "@/data/products";
+} from "@/data/products/products";
 
 const Home = () => {
   return (

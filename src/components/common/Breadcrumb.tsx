@@ -1,3 +1,4 @@
+import { cn } from "@/lib/shadcn/utils";
 import type { Product } from "@/types/product";
 import { LuChevronRight } from "react-icons/lu";
 
@@ -8,17 +9,22 @@ interface BreadcrumbItem {
 }
 
 interface BreadcrumbProps {
-  // items: BreadcrumbItem[];
   onNavigate: (path: string) => void;
   location: string;
   product?: Product;
+  className?: string;
 }
 
 const routeNameMap: Record<string, string> = {
-  products: "商品列表",
+  products: "所有商品",
 };
 
-const Breadcrumb = ({ onNavigate, location, product }: BreadcrumbProps) => {
+const Breadcrumb = ({
+  onNavigate,
+  location,
+  product,
+  className,
+}: BreadcrumbProps) => {
   const createBreadcrumb = (currentPath: string): BreadcrumbItem[] => {
     if (currentPath === "/") {
       return [];
@@ -55,7 +61,7 @@ const Breadcrumb = ({ onNavigate, location, product }: BreadcrumbProps) => {
 
   return (
     <nav>
-      <ul className="mb-6 ml-10 flex items-center gap-2">
+      <ul className={cn("mb-6 flex items-center gap-2", className)}>
         <li>
           <button
             type="button"

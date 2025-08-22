@@ -1,5 +1,5 @@
 import ProductSlider from "@/components/front/sliders/ProductSlider";
-import { hotProductsData } from "@/data/products";
+import { hotProductsData } from "@/data/products/products";
 import ProductDetailTitle from "./ProductDetailTitle";
 
 const RecommendProducts = () => {
