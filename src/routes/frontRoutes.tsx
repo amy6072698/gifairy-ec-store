@@ -2,6 +2,7 @@ import Home from "../pages/front/Home";
 import About from "../pages/front/About";
 import Products from "../pages/front/Products";
 import FrontLayout from "../layouts/front/FrontLayout";
+import ProductDetail from "@/pages/front/ProductDetail";
 
 export const frontRoutes = {
   path: "/",
@@ -18,6 +19,11 @@ export const frontRoutes = {
     {
       path: "/products",
       element: <Products />,
+      children: [],
+    },
+    {
+      path: "/products/:id",
+      element: <ProductDetail />,
     },
   ],
 };

@@ -5,10 +5,12 @@ import "slick-carousel/slick/slick-theme.css";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import type { Product } from "@/types/product";
 import ProductCard from "@/components/common/ProductCard";
+import { cn } from "@/lib/shadcn/utils";
 
 interface ProductSliderProps {
-  title: string;
+  title?: string;
   products: Product[];
+  className?: string;
 }
 
 // NextArrow
@@ -56,7 +58,7 @@ const PrevArrow = (props: any) => {
 };
 
 // Slider
-const ProductSlider = ({ title, products }: ProductSliderProps) => {
+const ProductSlider = ({ title, products, className }: ProductSliderProps) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -84,11 +86,15 @@ const ProductSlider = ({ title, products }: ProductSliderProps) => {
     ],
   };
   return (
-    <section className="pb-30 mx-auto max-w-[1140px] px-3 pt-20">
+    <section
+      className={cn("pb-30 mx-auto max-w-[1140px] px-3 pt-20", className)}
+    >
       <div className="mx-0 xl:mx-4">
-        <h2 className="text-pri-purple-500 mb-2 ml-2 flex text-[1.125rem] font-medium sm:ml-4 sm:text-[1.5rem]">
-          {title}
-        </h2>
+        {title && (
+          <h2 className="text-pri-purple-500 mb-2 ml-2 flex text-[1.125rem] font-medium sm:ml-4 sm:text-[1.5rem]">
+            {title}
+          </h2>
+        )}
         <div className="slider-container h-full w-full">
           <Slider {...settings}>
             {products.map((product) => (

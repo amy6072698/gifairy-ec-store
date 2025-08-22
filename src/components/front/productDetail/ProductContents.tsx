@@ -5,7 +5,7 @@ import Counter from "@/components/common/Counter";
 import type { Product } from "@/types/product";
 import ProductDetailTable from "./ProductDetailTable";
 import ProductDetailTitle from "./ProductDetailTitle";
-import { Badge } from "@/components/common/Badges";
+import Badge from "@/components/common/Badge";
 
 interface ProductContentsProps {
   product: Product;
